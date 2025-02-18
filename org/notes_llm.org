@@ -1,0 +1,115 @@
+#+TITLE: Literature LLM
+
+* LLMs
+** LLMs-Meta
+| LLM | Category | Parameter |
+|-----+----------+-----------|
+|     |          |           |
+** DeepSeek
+*** [[https://github.com/deepseek-ai/Janus/blob/main/janus_pro_tech_report.pdf][janus-pro-tech-report-20250128]] :ATTACH:
+:PROPERTIES:
+:ID:       b417d558-f9df-4014-ac6c-9e72cb577947
+:END:
+*** [[https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf][deepseek-r1-tech-report-20250123]] :ATTACH:
+:PROPERTIES:
+:ID:       ce938e3c-5f6b-4673-a26b-0c9e1f43cbe8
+:END:
+*** [[https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf][deepseek-v3-tech-report-20241226]] :ATTACH:
+:PROPERTIES:
+:ID:       155c2680-01b4-4e0f-9d1f-6845ffc1103f
+:END:
+DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.
+
+DeepSeekMoE with Auxiliary-Loss-Free Load Balancing
+Multi-Token Prediction
+
+*** [[https://github.com/deepseek-ai/DeepSeek-VL2/blob/main/DeepSeek_VL2_paper.pdf][deepseek-vl2-tech-report-20241213]] :ATTACH:
+:PROPERTIES:
+:ID:       7408423e-90d3-4fa7-bce9-0e88616f6dbc
+:END:
+*** [[https://arxiv.org/abs/2408.08152][deepseek-prover-v1.5-arxiv-20240815]] :ATTACH:
+:PROPERTIES:
+:ID:       29827a43-33a4-4dfc-bdec-0599c21d54d1
+:END:
+*** [[https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf][deepseek-v2-tech-report-20240619]] :ATTACH:
+:PROPERTIES:
+:ID:       481006c3-d608-4e31-80d6-ff26f01e0e58
+:END:
+
+DeepSeek-V2 comprises 236B parameters, of which 21B are activated for each token, and supports a context length of 128K tokens.
+
+Multi-head Latent Attention (MLA):
+- significantly compressing the Key-Value (KV) cache into a latent vector
+- low-rank key-value joint compression
+- boosting inference efficiency
+
+DeepSeek Mixture-of-Experts (MoE):
+- training strong models at an economical cost through sparse computation
+- DeepSeekMoE architecture for FNNs
+- segmenting experts into finer granularity for higher expert specialization and more accurate knowledge acquisition
+- isolating some shared experts for mitigating knowledge redundancy among routed experts
+
+Training:
+- pretrain
+- 1.5M conversational sessions (various domains: math, code, writing, reasoning, etc.) -> Supervised Fine-Tuning (SFT)
+- Group Relative Policy Optimization (GRPO)
+
+*** [[https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/paper.pdf][deepseek-coder-v2-tech-report-20240617]] :ATTACH:
+:PROPERTIES:
+:ID:       4f554c37-032e-4d8c-8eb4-99bdf7a2ac2b
+:END:
+*** [[https://arxiv.org/abs/2403.05525][deepseek-vl-arxiv-20240308]] :ATTACH:
+:PROPERTIES:
+:ID:       1c3bbd6c-6f58-4f6d-aebc-c847e3367488
+:END:
+*** [[https://arxiv.org/abs/2402.03300][deepseek-math-arxiv-20240205]] :ATTACH:
+:PROPERTIES:
+:ID:       efd73039-eabe-4c26-b1c4-8633e2919772
+:END:
+*** [[https://arxiv.org/abs/2401.14196][deepseek-coder-arxiv-20240125]] :ATTACH:
+:PROPERTIES:
+:ID:       e8018f96-9245-4c31-beb0-4a09bc06161e
+:END:
+*** [[https://arxiv.org/abs/2401.06066][deepseek-moe-arxiv-20240111]] :ATTACH:
+:PROPERTIES:
+:ID:       d8ab4cc7-58e6-4d00-b142-d519459f7ac0
+:END:
+*** [[https://arxiv.org/abs/2401.02954][deepseek-llm-arxiv-20240105]] :ATTACH:
+:PROPERTIES:
+:ID:       2b93846f-2638-450b-aae3-e8e52f21ca12
+:END:
+LLM scaling laws:
+- batch size
+- learning rate
+- model size
+- optimal model/data scaling-up allocation strategy
+- choice of datasets
+
+Learning rate scheduler:
+- LLaMA cosine -> multi-step
+
+Supervised Fine-Tuning (SFT):
+
+Direct Preference Optimization (DPO):
+** LLaMA
+*** [[https://arxiv.org/abs/2307.09288][llama-2-arxiv-20230718]]
+*** [[https://arxiv.org/abs/2302.13971][llama-arxiv-20230227]]
+* AI Agent
+** OmniParser
+*** [[https://arxiv.org/abs/2408.00203][omniparser_arxiv_20240801]]
+VLMs: large vision-language models
+
+GPT-4V: large multimodal model trained on UI data
+
+VLMs as /agents/ to perform complex tasks on the user interface (UI) with the aim of completing tedious tasks to replace human efforts
+
+=action grounding=: converting actions predicted by LLMs to actual actions on screen in terms of keyboard/mouse movement or API call
+
+set-of-marks (SoM) prompting: overlay a group of bounding bloxes each with unique numeric IDs on to the original image, as a visual prompt sent to GPT-4V model
+
+*OBJ*: a reliable vision-based screen parsing method -> OmniParser: a general screen parsing tool to extract information from UI screenshot into structured bounding box and labels which enhances GPT-4V's performance in action prediction in a variety of user tasks.
+
+OmniParser (icon detection model + functional description model):
+/inputs/: user task and UI screenshot)
+V
+/outputs/: parsed screenshot image with bounding boxes and numeric IDs overlayed, and local semantics containing both text extracted and icon description
