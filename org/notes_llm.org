@@ -1,5 +1,11 @@
 #+TITLE: Literature LLM
 
+* Review
+** [[https://arxiv.org/abs/2303.18223][survey_llm_2023-03]] :ATTACH:
+:PROPERTIES:
+:ID:       70869271-989f-40fb-8b82-be1df59e3535
+:END:
+
 * LLMs
 ** LLMs-Meta
 | LLM | Category | Parameter |
@@ -85,15 +91,9 @@ LLM scaling laws:
 - optimal model/data scaling-up allocation strategy
 - choice of datasets
 
-Learning rate scheduler:
-- LLaMA cosine -> multi-step
+Learning rate scheduler
 
-Supervised Fine-Tuning (SFT):
-
-Direct Preference Optimization (DPO):
 ** LLaMA
-*** [[https://arxiv.org/abs/2307.09288][llama-2-arxiv-20230718]]
-*** [[https://arxiv.org/abs/2302.13971][llama-arxiv-20230227]]
 * AI Agent
 ** OmniParser
 *** [[https://arxiv.org/abs/2408.00203][omniparser_arxiv_20240801]]
