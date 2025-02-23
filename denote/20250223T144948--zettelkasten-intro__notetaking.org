@@ -1,0 +1,30 @@
+#+title:      zettelkasten intro
+#+date:       [2025-02-23 Sun 14:49]
+#+filetags:   :notetaking:
+#+identifier: 20250223T144948
+
+* What is Zettelkasten [fn:1]
+Notetaking method to create a web of thoughts emphasizing connection through surfable hypertext (fixed address or unique ID).
+
+We should reflect on whether and how we arrange our notes so that they are available for later access. - Niklas Luhmann
+
+Traits of Zettelkasten:
+- It's hyper-textual.
+- It adheres to the Principle of Atomicity (each Zettel only contains one unit of knowledge and one only).
+- It's personal.
+
+* Anatomy of a Zettel [fn:1]
+- Unique Identifier (e.g., time-based ID)
+- Body / Content (you write it in your own words)
+- Footer / Reference (reference management system)
+
+* Types of Zettel [fn:2]
+- Fleeting notes: transient thoughts for a future review
+- Permanent notes
+- Bibliographic notes: a special category of permanent notes that link to some literature
+- Journal notes
+- Meta notes: entry point to other notes about a similiar topic
+
+* Footnotes
+[fn:1] https://zettelkasten.de/introduction/
+[fn:2] https://lucidmanager.org/productivity/taking-notes-with-emacs-denote/

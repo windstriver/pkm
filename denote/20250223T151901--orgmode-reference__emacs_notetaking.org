@@ -1,0 +1,19 @@
+#+title:      orgmode reference
+#+date:       [2025-02-23 Sun 15:19]
+#+filetags:   :emacs:notetaking:
+#+identifier: 20250223T151901
+
+* Objective
+As required by "reference/source" part of Zettelkasten [[denote:20250223T144948][zettelkasten intro]], a reference management system is needed in orgmode, especially for literature (citation, attachment pdfs).
+
+Orgmode already provides powerful linking functionality through =C-c C-l= (insert link), which can be used in either inline or footer.
+
+After basic study of org-cite (builtin), org-ref, citar, etc., the builtin approach org-cite seems like a lightweight solution, even it has weak pdf management support, which can be addressed through a finder program.
+
+* org-cite
+Global bibliography file:
+#+BEGIN_SRC elisp
+(setq org-cite-global-bibliography '("~/path/to/system-references.bib"))
+#+END_SRC
+
+Here is a test citation to deepseek r1 technical report [cite:@deepseek_20250122].

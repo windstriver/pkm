@@ -1,0 +1,22 @@
+* NEOVIM & LUA
+** GENERAL
+Nvim stdlib:
+- builtin-functions (Vimscript) =vim.fn= =:help function-list=
+- Ex-commands =:help ex-cmd-index=
+- Nvim API =vim.api= =:help api=
+
+run lua code:
+- :lua (nvim)
+- nvim -l foo.lua [args ...] (shell)
+
+** LUA CONCEPTS AND IDIOMS
+- tables: object or container datastructure (list, dict, map) =metatable=
+- scopes (closures): function, module, do block (=lua-do=)
+- coroutines: cooperative multithreading, generators, and control for Lua and host
+- iterator: =for-in= loops, =pairs()=, =vim.iter=
+
+** IMPORTING LUA MODULES
+- runtime path: =runtimepath=
+- Lua module path: =package.path= =package.cpath=
+- "." in module name -> directory separator
+- =require()=

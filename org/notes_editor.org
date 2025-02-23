@@ -1,0 +1,11 @@
+* KEY COMP
+- package manager (e.g., Lazy.nvim, straight.el)
+- syntax highlight (treesitter)
+- LSP (e.g., pyright)
+- fuzzy finder (e.g., telescope.nvim)
+- file explorer
+- autocompletion & intellisense
+- keybinding whichkey
+- version control
+- debugging
+- customization & extensibility
