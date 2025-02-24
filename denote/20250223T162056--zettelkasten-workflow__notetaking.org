@@ -5,8 +5,8 @@
 
 Knowing what Zettelkasten is in [[denote:20250223T144948][zettelkasten intro]] and simple reference management through org-cite in [[denote:20250223T151901][orgmode reference]], now it's time to summarize my Zettelkasten workflow:
 
-- create notes using =denote= with title and tags about a single concept/idea/though
-- add reference/src through inline link (=org-insert-link=), footer (=org-footnote-new=), or citation (=org-cite-insert=) saved in system bib
+- create notes using =denote= with title and tags about a single concept/idea/thought
+- add ref/src through inline link (=org-insert-link=), footer (=org-footnote-new=), or citation (=org-cite-insert=) saved in system bib
 - add connection to existing notes through =denote-link=
 - use dired and search function (or system fuzzy finder) based on keyword (title) and/or tags to find specific note and/or pdfs
 - check backlinks using =denote-backlinks= to follow the development of an entry note

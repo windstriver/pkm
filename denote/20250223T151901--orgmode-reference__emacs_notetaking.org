@@ -10,7 +10,7 @@ Orgmode already provides powerful linking functionality through =C-c C-l= (inser
 
 After basic study of org-cite (builtin), org-ref, citar, etc., the builtin approach org-cite seems like a lightweight solution, even it has weak pdf management support, which can be addressed through a finder program.
 
-* org-cite
+* org-cite with citar
 Global bibliography file:
 #+BEGIN_SRC elisp
 (setq org-cite-global-bibliography '("~/path/to/system-references.bib"))

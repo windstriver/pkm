@@ -1,9 +1,14 @@
+#+title:      editor key comp
+#+date:       [2025-02-23 Sun 16:48]
+#+filetags:   :editor:
+#+identifier: 20250223T164805
+
 * KEY COMP
 - package manager (e.g., Lazy.nvim, straight.el)
 - syntax highlight (treesitter)
 - LSP (e.g., pyright)
 - fuzzy finder (e.g., telescope.nvim)
-- file explorer
+- file explorer (e.g., nvim.tree, dired)
 - autocompletion & intellisense
 - keybinding whichkey
 - version control

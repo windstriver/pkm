@@ -6,11 +6,13 @@
 * What is Zettelkasten [fn:1]
 Notetaking method to create a web of thoughts emphasizing connection through surfable hypertext (fixed address or unique ID).
 
+#+begin_quote
 We should reflect on whether and how we arrange our notes so that they are available for later access. - Niklas Luhmann
+#+end_quote
 
 Traits of Zettelkasten:
 - It's hyper-textual.
-- It adheres to the Principle of Atomicity (each Zettel only contains one unit of knowledge and one only).
+- It adheres to the /Principle of Atomicity/ (each Zettel only contains one unit of knowledge and one only).
 - It's personal.
 
 * Anatomy of a Zettel [fn:1]
