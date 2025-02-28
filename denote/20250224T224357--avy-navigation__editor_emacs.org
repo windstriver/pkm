@@ -1,0 +1,10 @@
+#+title:      avy navigation
+#+date:       [2025-02-24 Mon 22:43]
+#+filetags:   :editor:emacs:
+#+identifier: 20250224T224357
+
+=avy= is a GNU Emacs package for jumping to visible text using a char-based decision tree.
+
+(=avy-goto-char-2= CHAR1 CHAR2 &optional ARG BEG END)
+Jump to the currently visible CHAR1 followed by CHAR2
+evil-motion-state-map =g s s=

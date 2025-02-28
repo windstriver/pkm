@@ -1,0 +1,11 @@
+#+title:      emacs 30
+#+date:       [2025-02-24 Mon 20:39]
+#+filetags:   :editor:emacs:
+#+identifier: 20250224T203939
+
+* Emacs 30.1
+- =completion-preview-mode=: (replacement for company mode and corfu) shows in-buffer completion suggestions in a preview as you type
+- Org URI protocol
+- =which-key= is now built in
+- native compilation is on by default
+- =help-find-source= =find-variable= =find-function= =find-funtion-on-key=

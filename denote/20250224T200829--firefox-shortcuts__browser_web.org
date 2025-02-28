@@ -1,0 +1,32 @@
+#+title:      firefox shortcuts
+#+date:       [2025-02-24 Mon 20:08]
+#+filetags:   :browser:web:
+#+identifier: 20250224T200829
+
+| Shortcut         | Command                                                     |
+|------------------+-------------------------------------------------------------|
+| =Navigation=     |                                                             |
+| Ctrl-[           | Back                                                        |
+| Ctrl-]           | Forward                                                     |
+| Ctrl-R           | Reload                                                      |
+|------------------+-------------------------------------------------------------|
+| =Current Page=   |                                                             |
+| Space            | Go Down a Screen                                            |
+| Shift-Space      | Go Up a Screen                                              |
+|------------------+-------------------------------------------------------------|
+| =Search=         |                                                             |
+| Ctrl-K           | Focus address bar for Web Search with Default Search Engine |
+| Alt-Down(Up)     | Switch Search Engine                                        |
+|------------------+-------------------------------------------------------------|
+| =Windows & Tabs= |                                                             |
+| Ctrl+T           | New Tab                                                     |
+| Ctrl-W           | Close Tab                                                   |
+| Alt-1(to 8)      | Go to Tab 1 to 8                                            |
+| Alt-9            | Go to Last Tab                                              |
+| Ctrl-Shift-Tab   | Go one Tab to the Left                                      |
+| Ctrl-Tab         | Go one Tab to the Right                                     |
+|------------------+-------------------------------------------------------------|
+| =Bookmarks=      |                                                             |
+| Ctrl-D           | Bookmark This Page                                          |
+| Ctrl-B           | Bookmarks sidebar                                           |
+| Ctrl-Shift-B     | Show/hide the Bookmarks toolbar                             |
