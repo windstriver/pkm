@@ -1,0 +1,17 @@
+#+title:      pytorch 60min
+#+date:       [2025-02-27 Thu 21:56]
+#+filetags:   :ai:pytorch:
+#+identifier: 20250227T215622
+
+* What's PyTorch?
+- Provides tensor data structure and operations supporting acclerators from GPU
+- Automatic differentiation library useful for neural network implementation
+
+* Tensors
+- data structure similar to arrays and matrices (similar API with NumPy ndarray)
+- to encode inputs, outputs, and parameters of models
+- can run on GPUs to accelerate computing
+
+* =torch.autograd=
+- Forward Propagation (input -> output)
+- Backward Propagation (error -> derivative of error wrt parameter -> gradient descent)

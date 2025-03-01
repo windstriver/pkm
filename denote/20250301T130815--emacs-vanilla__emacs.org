@@ -1,0 +1,27 @@
+#+title:      emacs vanilla
+#+date:       [2025-03-01 Sat 13:08]
+#+filetags:   :emacs:
+#+identifier: 20250301T130815
+
+* Completion
+- completion-preview-read
+- icomplete-vertical
+- which-key
+
+* Major
+- dired
+- ibuffer
+- org
+
+* Package
+- org (built-in)
+- package.el (built-in)
+- use-package (built-in)
+- modus-operandi (built-in)
+- which-key (built-in)
+- completion-preview (built-in)
+- icomplete (built-in)
+- deno
+- magit
+- smartparens
+- doom-modeline

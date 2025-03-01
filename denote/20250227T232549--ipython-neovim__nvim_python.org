@@ -1,0 +1,6 @@
+#+title:      ipython neovim
+#+date:       [2025-02-27 Thu 23:25]
+#+filetags:   :nvim:python:
+#+identifier: 20250227T232549
+
+TODO Send load -r with line range to ipython
