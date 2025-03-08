@@ -1,0 +1,62 @@
+#+title:      org features
+#+date:       [2025-03-01 Sat 18:33]
+#+filetags:   :emacs:org:
+#+identifier: 20250301T183309
+
+* Elegant Markup
+** Headline
+Org uses single characters to markup:
+- *bold*
+- /italic/
+- _underline_
+- ~code~
+
+Links also use minimal markup in [[https://orgmode.org][Org]].
+
+*** Sub-headline                                                        :tag:
+
+* Structured Editing
+- tree structure
+** Folding
+*** Introduction
+
+* Transparent Tables
+
+| n | n^2 |   sqrt(n) |
+|---+-----+-----------|
+| 1 |   1 |         1 |
+| 2 |   4 | 1.4142136 |
+| 3 |   9 | 1.7320508 |
+#+TBLFM: $2=$1^2::$3=sqrt($1)
+
+* Superior Source Code
+
+#+begin_src python :results output
+print("Hello world!")
+#+end_src
+
+#+RESULTS:
+: Hello world!
+
+* Export and Publish
+- HTML
+- LaTeX
+- ODT
+- and more
+
+* Take Control of Tasks
+** TODO Work out [1/3]
+- [ ] Tue
+- [ ] Wed
+- [X] Thu
+
+* Actional Agendas
+
+* Clocking
+- clock in =C-c C-x C-i=
+- clock out =C-c C-x C-o=
+- clock table
+
+* Capture Data From Anywhere
+
+* Extremely Extensible

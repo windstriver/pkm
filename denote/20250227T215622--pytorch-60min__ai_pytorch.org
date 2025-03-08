@@ -3,6 +3,8 @@
 #+filetags:   :ai:pytorch:
 #+identifier: 20250227T215622
 
+https://pytorch.org/tutorials/beginner/blitz/
+
 * What's PyTorch?
 - Provides tensor data structure and operations supporting acclerators from GPU
 - Automatic differentiation library useful for neural network implementation
@@ -15,3 +17,14 @@
 * =torch.autograd=
 - Forward Propagation (input -> output)
 - Backward Propagation (error -> derivative of error wrt parameter -> gradient descent)
+
+* Neural Networks
+- =torch.nn=
+- =forward(input)= -> =output=
+** Training procedure
+- Define the neural network that has some learnable parameters (or weights)
+- Iterate over a dataset of inputs
+- Process input through the network
+- Compute the loss (how far is the output from being correct)
+- Propagate gradients back into the network's parameters
+- Update the weights of the network, typically using a simple update rule: weight = weight - learning_rate * gradient

@@ -1,0 +1,14 @@
+#+title:      Sunday  2 March 2025 13:16
+#+date:       [2025-03-02 Sun 13:16]
+#+filetags:   :journal:
+#+identifier: 20250302T131609
+
+expand-region.el: emacs extension to increase selected region by semantic units
+
+MRL: modified, read-only, load
+CRM: current (?), read-only, modified
+
+text face
+face name
+=list-face-discplay=
+font lock mode assigns face to the texts in the buffer

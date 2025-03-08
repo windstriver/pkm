@@ -1,0 +1,19 @@
+#+begin_src python :results output
+  print("Hello, world!")
+#+end_src
+
+#+RESULTS:
+: Hello, world!
+
+#+begin_src python :session
+  def foo(x):
+      if x>0:
+          return x+1
+      else:
+          return x-1
+
+  foo(2)
+#+end_src
+
+#+RESULTS:
+: 3

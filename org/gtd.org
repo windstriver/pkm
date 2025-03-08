@@ -1,0 +1,2 @@
+* TODO Learn Org Mode
+SCHEDULED: <2025-03-01 Sat>

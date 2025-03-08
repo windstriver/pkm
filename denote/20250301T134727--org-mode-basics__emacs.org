@@ -1,0 +1,5 @@
+#+title:      org mode basics
+#+date:       [2025-03-01 Sat 13:47]
+#+filetags:   :emacs:
+#+identifier: 20250301T134727
+
