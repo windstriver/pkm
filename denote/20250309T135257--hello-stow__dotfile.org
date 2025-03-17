@@ -1,0 +1,10 @@
+#+title:      hello stow
+#+date:       [2025-03-09 Sun 13:52]
+#+filetags:   :dotfile:
+#+identifier: 20250309T135257
+
+symlink farm manager
+
+$HOME/dotconfig/nvim/.config/nvim <- $HOME/.config/nvim
+
+run =stow nvim= at $HOME/dotconfig/

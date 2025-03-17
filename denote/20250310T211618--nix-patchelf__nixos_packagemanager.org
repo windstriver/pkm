@@ -1,0 +1,19 @@
+#+title:      nix patchelf
+#+date:       [2025-03-10 Mon 21:16]
+#+filetags:   :nixos:packagemanager:
+#+identifier: 20250310T211618
+
+Nix doesn't rely on common locations for libraries like /lib, /usr/lib, /usr/local/lib
+
+ELF: Executable and Linkable Format
+Patching ELF: modifying runtime dynamic linking information (interpreter, shared lib)
+
+ldd: check linked libraries
+
+pathelf: a tool to modify ELF binaries without recompiling
+- patch the dynamic linker (--set-interpreter) ld-linux
+- patch RPATH (--set-rpath) to include Nix libraries
+
+autoPatchelfHook to automatically fix broken binaries
+
+nix-ld: fallback dynamic linker

@@ -1,0 +1,25 @@
+#+title:      hello hyprland
+#+date:       [2025-03-11 Tue 16:37]
+#+filetags:   :nixos:window:
+#+identifier: 20250311T163748
+
+Keywords:
+- Wayland (Display Server Protocol)
+- Simple Desktop Display Manager (SDDM)
+- Hyprland (Wayland Compositor)
+- Application (Wayland Client)
+
+* SDDM
+- manages graphical login screen and session init
+- bridge between system's login process and the graphical environment (Wayland compositor, Hyprland)
+* Wayland
+- display server protocol
+- defines how graphical elements (windows, UI elements, etc.) should be drawn and managed
+* Hyprland (Wayland Compositor)
+- render windows on the screen
+- manage inputs from keyboard and mouse
+- provide window management interface (tiling, stacking, etc.)
+- apply effects and render windows for applications
+- ensure that applications have access to the display server and renders
+* Wofi
+* Hyprlock

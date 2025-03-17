@@ -1,0 +1,16 @@
+#+title:      hello home-manager
+#+date:       [2025-03-09 Sun 12:18]
+#+filetags:   :nixos:packagemanager:
+#+identifier: 20250309T121835
+
+Dot configuration management
+- home-manager
+- stow
+
+Home Manager is a Nix-based dotfile manager that lets you configure user-specific programs, settings, and environment variables declaratively. It works independently of configuration.nix, so you can manage your personal setup without modifying the system configuration
+
+- declarative
+- Nix-based dotfile manager
+- download user-specific programs
+- config user-specific programs, settings, env var
+- independent of configuration.nix

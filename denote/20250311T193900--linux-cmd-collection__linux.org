@@ -1,0 +1,17 @@
+#+title:      linux cmd collection
+#+date:       [2025-03-11 Tue 19:39]
+#+filetags:   :linux:
+#+identifier: 20250311T193900
+
+| Category           | Cmd                         | Package        |
+|--------------------+-----------------------------+----------------|
+| Core Utilities     | ls, cp, rm, mv, cat         | coreutils      |
+| User Management    | useradd, passwd, groupmod   | shadow         |
+| Filesystem         | mount, fdisk, lsblk         | util-linux     |
+| Networking         | ip, ping, curl, wget        | iproute2, curl |
+| Monitoring         | top, htop, ps, free         | procps, htop   |
+| Package Management | nix-                        | nix            |
+| Development        | gcc, make, gdb, git         | gcc, git       |
+| Compression        | tar, zip, gzip, 7z          | gzip, p7zip    |
+| Systemd            | systemctl, journalctl       | systemd        |
+| Nixos Tools        | nixos-rebuild, home-manager | nixos          |

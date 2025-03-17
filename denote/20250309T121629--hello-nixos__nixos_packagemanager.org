@@ -1,0 +1,21 @@
+#+title:      hello nixos
+#+date:       [2025-03-09 Sun 12:16]
+#+filetags:   :nixos:packagemanager:
+#+identifier: 20250309T121629
+
+* NixOS
+- /etc/nixos/configuration.nix
+- nixos-rebuild, nix-channel
+- /nix/store: unique package build; .drv derivation (Nix build recipe); config (=nix-store=)
+- /run/current-system
+* Nixpkgs
+- channel
+- package repo
+- builder functions
+- utility functions (lib)
+* home-manager
+[[denote:20250309T121835][hello home-manager]]
+* nix-shell
+* nix-flakes
+- reproducible dev env (shell, python, etc)
+- flake lockfile with exact dependency versions

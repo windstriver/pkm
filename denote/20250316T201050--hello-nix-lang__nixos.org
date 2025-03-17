@@ -1,0 +1,55 @@
+#+title:      hello nix lang
+#+date:       [2025-03-16 Sun 20:10]
+#+filetags:   :nixos:
+#+identifier: 20250316T201050
+
+https://nix.dev/tutorials/nix-language.html
+
+=nix repl=: interactive Nix
+=nix-instantiate --eval=: evaluate expressions in Nix file
+
+attribute set ={ ... }= (similiar to JSON), dict
+
+recursive attribute set =rec { ...  }=: access to attributes from within the set
+
+=let= expression/binding: let ... in ..., assigning names to values for repeated use
+
+attribute access with a dot =.=
+
+=with= expression: with ...; ..., access to attributes without referencing their attribute set
+
+=inherit=: assign the value of a name from an existing scope to the same name in a nested scope
+
+string interpolation: =${ ...  }=
+
+indented strings (multi-line): double single quotes ='' ''=
+
+file system paths: /, ./, ../.
+
+lookup paths: angle bracket syntax, e.g., <nixpkgs>, =builtins.nixPath=, $NIX_PATH
+
+*Functions*
+- always takes exactly /one/ argument
+- argument and function body separated by colon =:=
+- attribute set argument (keyword arguments, destructuring): { a, b }: a + b
+- with additional attributes allowed: { a, b, =...= }: a + b
+- default arguments: {a, b =?= 0}: a + b 1
+- named attribute set argument, =@= pattern: attribute set argument can be given a name
+- functions can be assigned to a name, =let= expression
+
+Function libraries
+- =builtins=, e.g., builtins.toString, part of Nix lang, implemented in C++
+- =import=, takes a path to a Nix file, reads and evaluate it, and return the resulting value
+- =pkgs.lib=, attribute set (lib) in =nixpkgs= repo, providing many useful functions implemented in Nix
+
+pure vs impure functions
+
+Fetchers (impure): =builtins.fetchurl=, =builtins.fetchGit=
+
+*Derivations* (impure)
+- Nix runs derivations to produce /build results/
+- build results can in turn be used as inputs for other derivations
+- =mkDerivation=: denotes something that Nix will /build/
+- evaluation result of =derivation= is an attribute set with certain structure and a special propery: it can be used in string interpolation
+- a derivation's output is fully determined by its inputs
+- string interpolation on derivations is used to refer to their build results as file system paths when declaring new derivations

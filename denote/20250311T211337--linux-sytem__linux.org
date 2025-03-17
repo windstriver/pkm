@@ -1,0 +1,19 @@
+#+title:      linux sytem
+#+date:       [2025-03-11 Tue 21:13]
+#+filetags:   :linux:
+#+identifier: 20250311T211337
+
+* Linux Kernal (process, memory, filesystem, device & drivers, networking, security, power, logging)
+* System Initialization (systemd)
+* Process Management (ps, top)
+* GNU C Library (glibc)
+* System Calls
+* Graphics Libraries (libdrm, Mesa)
+* Shell (Bash, zsh, etc) & Command Line Tools (Coreutils)
+* Filesystem Management (hierarchy, filesystem types, tools)
+* Package Managers (Pacman, Nix, etc)
+* Networking
+* Graphical & Desktop (Wayland, Compositors, Drivers)
+* Storage & Device Management (Block, Device)
+* Virtualization & Sandboxing (Docker, etc.)
+* Logging & Monitoring
