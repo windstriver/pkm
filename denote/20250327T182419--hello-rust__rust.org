@@ -1,0 +1,48 @@
+#+title:      hello rust
+#+date:       [2025-03-27 Thu 18:24]
+#+filetags:   :rust:
+#+identifier: 20250327T182419
+
+guessing_game
+
+println!:
+- prints to the std output with a newline
+- macro
+- variable arguments (varargs)
+- formatting
+- compile-time
+
+library:
+- std lib
+- scope
+- prelude (e.g., String)
+- use (e.g., std::io, std::cmp::Ordering)
+
+let:
+- immutable by default
+- mut
+- type inference
+
+reference &:
+- immutable by default
+- argument passing
+- access without copying
+
+Result:
+- failure handling
+- /enumeration/
+- variants: Ok and Err
+- _Ok variant contains the resultant number_
+- expect method
+
+match:
+- enum
+- =>
+
+cargo:
+- crate, crate.io, semantic versioning
+- dependency management (Cargo.toml, Cargo.lock)
+- build & run
+- cargo doc --open
+
+traits:

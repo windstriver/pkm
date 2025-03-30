@@ -1,0 +1,21 @@
+#+title:      The Purely Functional Software Deployment Model
+#+date:       [2025-03-22 Sat 10:24]
+#+filetags:   :literature:nix:
+#+identifier: 20250322T102428
+
+[cite:@Dolstra_2006]
+
+Software deployment:
+Environment issues:
+- dependencies (runtime, build-time, compatible)
+- find dependencies (e.g., dynamic linker search path)
+- non-software artifacts (e.g., config files, user accounts)
+- hardware requirement
+Manageability issues:
+- support the evolution of a software system
+
+*Hash* is computed over all inputs:
+- sources of the components
+- script that performed the build
+- any arguments or env vars passed to the build script
+- all build time dependencies

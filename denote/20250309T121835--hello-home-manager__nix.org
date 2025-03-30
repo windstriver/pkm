@@ -1,6 +1,6 @@
 #+title:      hello home-manager
 #+date:       [2025-03-09 Sun 12:18]
-#+filetags:   :nixos:packagemanager:
+#+filetags:   :nix:
 #+identifier: 20250309T121835
 
 Dot configuration management

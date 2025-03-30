@@ -1,6 +1,6 @@
 #+title:      nix patchelf
 #+date:       [2025-03-10 Mon 21:16]
-#+filetags:   :nixos:packagemanager:
+#+filetags:   :nix:
 #+identifier: 20250310T211618
 
 Nix doesn't rely on common locations for libraries like /lib, /usr/lib, /usr/local/lib

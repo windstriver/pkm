@@ -1,0 +1,35 @@
+#+title:      hello cargo
+#+date:       [2025-03-27 Thu 21:43]
+#+filetags:   :rust:
+#+identifier: 20250327T214345
+
+* Cargo.toml
+workspace:
+- multiple packages, members
+- dependencies sharing
+
+profile.release:
+- opt-level, max optimization for speed
+- lto, link-time optimization
+
+
+[lib]
+
+[dependencies]
+- winit
+
+[build-dependencies]
+- gl_generator: to generate bindings for OpenGL functions and constants
+
+[dev-dependencies]
+- clap_complete
+
+[target.____.dependencies]
+- xdg
+
+[features]
+* Why native library dependencies are needed?
+- Rust dependencies declared in Cargo.toml may be wrappers of native C libraries
+- Rust compiler needs to know how to find these system libraries
+- build.rs
+- Cargo only manages Rust-level dependencies

@@ -1,6 +1,6 @@
 #+title:      hello nix lang
 #+date:       [2025-03-16 Sun 20:10]
-#+filetags:   :nixos:
+#+filetags:   :nix:
 #+identifier: 20250316T201050
 
 https://nix.dev/tutorials/nix-language.html

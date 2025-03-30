@@ -1,6 +1,6 @@
 #+title:      hello hyprland
 #+date:       [2025-03-11 Tue 16:37]
-#+filetags:   :nixos:window:
+#+filetags:   :desktop:
 #+identifier: 20250311T163748
 
 Keywords:

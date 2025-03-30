@@ -1,0 +1,24 @@
+#+title:      nix workflow
+#+date:       [2025-03-21 Fri 19:43]
+#+filetags:   :nix:
+#+identifier: 20250321T194353
+
+=nix search=
+search for packages
+- show packages in the nixpkgs flake containing blender in its name or description
+  nix search nixpkgs blender
+
+=nix run=
+builds and runs /installable/, which must evaluate to an /app/ or a regular Nix derivation
+- Run vim from the nixpkgs flake: nix run nixpkgs#vim
+
+=nix build=: build a derivation or fetch a store path
+=nix develop=: run a bash shell that provides the build environment of a derivation
+=nix flake=: manage Nix flake
+=nix profile=: manage Nix profile
+
+=nix repl=: start an interactive environment for evaluating Nix expressions
+
+=nix flake update=: update flake lock file (fetch the latest version of nixpkgs and other inputs)
+=nixos-rebuild switch --flake .=: rebuild the NixOS system using the updated flake
+=nix-collect-garbage -d=: delete unreachable store objects
