@@ -5,6 +5,7 @@
 #+RESULTS:
 : Hello, world!
 
+
 #+begin_src python :session
   def foo(x):
       if x>0:
@@ -17,3 +18,45 @@
 
 #+RESULTS:
 : 3
+
+#+begin_src python :results output
+  import numpy as np
+  x = np.linspace(0, 1, 11)
+  print(x)
+#+end_src
+
+#+RESULTS:
+: [0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+
+#+begin_src python :results file link
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig=plt.figure(figsize=(4,2))
+x=numpy.linspace(-15,15)
+plt.plot(numpy.sin(x)/x)
+fig.tight_layout()
+plt.savefig('images/python-matplot-fig.png')
+return 'images/python-matplot-fig.png' # return filename to org-mode
+#+end_src
+
+#+RESULTS:
+[[file:images/python-matplot-fig.png]]
+
+
+* Shared Python Session
+
+#+begin_src python :session :results output
+x = 5
+print("x is set")
+#+end_src
+
+#+RESULTS:
+: x is set
+
+#+begin_src python :session :results output
+print(f"x squared is {x**2}")
+#+end_src
+
+#+RESULTS:
+: x squared is 25

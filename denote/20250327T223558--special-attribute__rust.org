@@ -1,8 +1,0 @@
-#+title:      special attribute
-#+date:       [2025-03-27 Thu 22:35]
-#+filetags:   :rust:
-#+identifier: 20250327T223558
-
-#![warn], #![deny], #![cfg_attr], etc.
--- special attributes that modify the behavior of the Rust compiler
--- used to enforce lints, warnings, and conditional compilation settings

@@ -1,6 +1,0 @@
-#+title:      magit
-#+date:       [2025-02-27 Thu 18:50]
-#+filetags:   :emacs:git:
-#+identifier: 20250227T185026
-
-Magit is a complete text-based user interface to Git.

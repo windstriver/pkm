@@ -1,4 +1,0 @@
-#+title:      hello kitty
-#+date:       [2025-03-15 Sat 16:36]
-#+filetags:   :terminal:
-#+identifier: 20250315T163646
