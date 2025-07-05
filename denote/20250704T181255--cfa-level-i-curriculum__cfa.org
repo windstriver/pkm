@@ -1,0 +1,61 @@
+#+title:      cfa level I curriculum
+#+date:       [2025-07-04 Fri 18:12]
+#+filetags:   :cfa:
+#+identifier: 20250704T181255
+
+* Core Curriculum Topics and Weights
+https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-i-exam#economics
+** Ethical and Professional Standards (15-20%)
+- ethical decision-making
+- [[https://www.cfainstitute.org/standards/professionals/code-ethics-standards][CFA Institute Code of Ethics and Standards of Professional Conduct]]
+- [[https://rpc.cfainstitute.org/en/gips-standards][Global Investment Performance Standards (GIPS)]]
+** Quantitative Methods (6-9%)
+- description statistics
+  + central tendency
+  + location
+  + dispersion
+  + characteristics of return distributions
+- risk quantification for decision-making
+** Economics (6-9%)
+- analysis of supply and demand for individual consumers and firms
+- market structures
+- macroeconomic concepts and principles:
+  + aggregate output & income measurement
+  + aggregate demand and supply analysis
+  + analysis of economic growth factors
+- business cycle and its effect on economic activity
+** Financial Statement Analysis (11-14%)
+- financial reporting procedures
+- standards that govern financial reporting disclosures
+  + basic financial statements
+  + impact of alternative accounting methods
+- financial statement analysis framework
+** Corporate Issuers (6-9%)
+- corporate governance
+- stakeholder management
+- investing and financing decisions
+- impact of environmental and social considerations in investing
+- How companies make use of leverage and manage their working capital to meet short-term operational needs?
+** Equity Investments (11-14%)
+- characteristics of equity investments, security markets, and indexes
+- how to analyze industries, companies, and equity securities
+- basic equity valuation models and global equatities
+- longer-term growth and diversification objectives
+** Fixed Income (11-14%)
+- how to describe fixed income securities and their markets, yield measures, risk factors, and valuation measurements and drivers
+- how to calculate yields, values of fixed income securities, the securitization of assets, the fundamentals of bond returns and risks and basic principles of credit analysis
+** Derivatives (5-8%)
+- conceptual framework for understanding the basic derivatives and derivative markets
+- essential features and valuation concepts for forward commitments such as forwards, futures, swaps, and contingent claims
+- arbitrage, a critical concept that links derivative pricing to the price of the underlying asset
+** Alternative Investments (7-10%)
+- hedge funds, private equity, real estate, commodities, and infrastructure
+** Portfolio Management (8-12%)
+- fundamentals of portfolio and risk management
+  + return and risk measurement
+  + portfolio planning and construction
+- capital asset pricing model is used to identify optimal risk in portfolios
+* 2026 Level I Topic Outlines                                        :ATTACH:
+:PROPERTIES:
+:ID:       21dacd2d-f4a7-480e-82d2-5005548ff33e
+:END:

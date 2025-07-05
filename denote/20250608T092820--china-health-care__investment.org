@@ -1,0 +1,39 @@
+#+title:      china health care
+#+date:       [2025-06-08 Sun 09:28]
+#+filetags:   :investment:
+#+identifier: 20250608T092820
+
+* News
+** [[https://www.marketwatch.com/story/pfizer-makes-a-6-billion-run-into-a-new-cancer-drug-race-6-months-after-rival-ec832fed][Pfizer makes a $6 billion run into a new cancer drug race, 6 months after rival]]
+:PROPERTIES:
+:Published: [2025-05-20]
+:Description: Pfizer’s licensing deal with China’s 3Sbio for PD-1/VEGF antibody has an upfront payment more than double what Merck paid last year for its deal with China’s LaNova
+:END:
+
+** [[https://www.scmp.com/business/article/3312706/chinese-biotech-firm-akeso-tumbles-us-partner-summits-setback-cancer-drug][Chinese biotech firm Akeso tumbles on US partner Summit’s setback for cancer drug]]
+:PROPERTIES:
+:Published: [2025-06-02]
+:Description: FDA says a ‘statistically significant’ benefit on overall survival is required to approve the ivonescimab antibody
+:END:
+
+* Drivers
+** innovative drug development
+oncology innovative drug
+antibody-drug conjugates (ADCs)
+glucagon-like peptide-1 (GLP-1)
+
+* Risks
+** regulatory
+** geopolitical
+
+* ETFs
+** KURE                                                              :ATTACH:
+:PROPERTIES:
+:ID:       50167b78-80d4-46bf-988b-a983a3d8ab22
+:END:
+KraneShares MSCI All China Health Care Index ETF
+
+* Companies
+** Akeso
+** 3Sbio
+

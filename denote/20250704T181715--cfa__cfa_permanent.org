@@ -1,0 +1,9 @@
+#+title:      cfa
+#+date:       [2025-07-04 Fri 18:17]
+#+filetags:   :cfa:permanent:
+#+identifier: 20250704T181715
+
+* Introduction
+- [[denote:20250704T215227][cfa program overview]]
+- [[denote:20250704T194841][cfa level i exam]]
+- [[denote:20250704T181255][cfa level I curriculum]]

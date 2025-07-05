@@ -1,0 +1,9 @@
+#+title:      cfa program overview
+#+date:       [2025-07-04 Fri 21:52]
+#+filetags:   :cfa:
+#+identifier: 20250704T215227
+
+* Brochure                                                           :ATTACH:
+:PROPERTIES:
+:ID:       bd0e15e1-238a-43c3-b463-67792b01e15f
+:END:

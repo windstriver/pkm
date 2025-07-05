@@ -1,0 +1,19 @@
+#+title:      cfa level i exam
+#+date:       [2025-07-04 Fri 19:48]
+#+filetags:   :cfa:
+#+identifier: 20250704T194841
+
+* Format
+- 180 multiple choice questions
+- two 135-minute sessions
+- sentence completion with 3 answer choices
+- question with 3 answer choices
+
+* Tips
+** Financial Statement Analysis
+- International Reporting Standards (IFRS)
+- U.S. GAAP when explicitly stated
+** No penalty for guessing
+** Know your calculator
+** Exam hardware and software
+** Sample questions [[https://www.cfainstitute.org/sites/default/files/docs/programs/cfa-program/cep_are-you-ready-for-level-1.pdf][CFA exam Level I sample questions]]
