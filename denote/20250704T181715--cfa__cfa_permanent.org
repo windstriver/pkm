@@ -7,3 +7,4 @@
 - [[denote:20250704T215227][cfa program overview]]
 - [[denote:20250704T194841][cfa level i exam]]
 - [[denote:20250704T181255][cfa level I curriculum]]
+- [[denote:20250705T195259][cfa level i learning outcomes]]

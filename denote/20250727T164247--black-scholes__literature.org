@@ -1,0 +1,9 @@
+#+title:      black scholes
+#+date:       [2025-07-27 Sun 16:42]
+#+filetags:   :literature:
+#+identifier: 20250727T164247
+
+* The Pricing of Options and Corporate Liabilities                   :ATTACH:
+:PROPERTIES:
+:ID:       e43846fa-9e12-4931-86c1-9aa81f3e8b7c
+:END:

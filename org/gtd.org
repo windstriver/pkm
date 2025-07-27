@@ -1,1 +1,6 @@
 #+TITLE: Getting Things Done
+* CFA
+** TODO CFA Exam Level I Registration
+DEADLINE: <2025-07-05 Sat>
+** TODO Hypothesis Testing
+** TODO EBIT vs OCF
